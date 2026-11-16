@@ -1,13 +1,13 @@
-# @kentrino/dotenvx-lib
+# @kentrino/dotenvx-lite
 
 Parse `.env` files and decrypt [dotenvx](https://dotenvx.com) `encrypted:` values.
 
 ## Installation
 
 ```sh
-pnpm add @kentrino/dotenvx-lib
+pnpm add @kentrino/dotenvx-lite
 # or
-npm install @kentrino/dotenvx-lib
+npm install @kentrino/dotenvx-lite
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ import {
   isDotenvPublicKey,
   isEncrypted,
   parseEnv,
-} from "@kentrino/dotenvx-lib";
+} from "@kentrino/dotenvx-lite";
 
 const parsed = parseEnv(source);
 const env = decryptEnv(parsed, privateKey);

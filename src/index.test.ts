@@ -12,7 +12,7 @@ import {
 
 const fixturePrivateKey = "dc08409876f6c2da7e5123380b071b131977ffbf2aadb78945e1579514dbae4b";
 
-describe("@kentrino/dotenvx-lib", () => {
+describe("@kentrino/dotenvx-lite", () => {
   const parsed = parseEnv(readFileSync(join(import.meta.dirname, "__fixtures__/ci.env"), "utf8"));
 
   it("parses and decrypts a dotenvx env file through the public API", () => {
