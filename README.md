@@ -2,6 +2,14 @@
 
 Parse `.env` files and decrypt [dotenvx](https://dotenvx.com) `encrypted:` values.
 
+## Installation
+
+```sh
+pnpm add @kentrino/dotenvx-lib
+# or
+npm install @kentrino/dotenvx-lib
+```
+
 ## Usage
 
 ```ts
