@@ -5,7 +5,7 @@ export default defineConfig({
     "*": "vp check --fix",
   },
   fmt: {
-    ignorePatterns: ["dist/**", "coverage/**", "pnpm-lock.yaml"],
+    ignorePatterns: ["dist/**", "coverage/**", "pnpm-lock.yaml", "THIRD_PARTY_NOTICES.md"],
   },
   lint: {
     ignorePatterns: ["dist/**", "coverage/**"],
