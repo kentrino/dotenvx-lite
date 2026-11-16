@@ -9,15 +9,15 @@
     "env",
     "typescript"
   ],
-  "homepage": "https://github.com/kentrino/dotenvx-lib#readme",
+  "homepage": "https://github.com/kentrino/dotenvx-lite#readme",
   "bugs": {
-    "url": "https://github.com/kentrino/dotenvx-lib/issues"
+    "url": "https://github.com/kentrino/dotenvx-lite/issues"
   },
   "license": "MIT",
   "author": "Kento Haneda",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentrino/dotenvx-lib.git"
+    "url": "git+https://github.com/kentrino/dotenvx-lite.git"
   },
   "files": [
     "dist",
