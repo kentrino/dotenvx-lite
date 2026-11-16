@@ -1,6 +1,6 @@
 {
   "name": "@kentrino/dotenvx-lite",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Parse .env files and decrypt dotenvx encrypted: values.",
   "keywords": [
     "dotenv",
