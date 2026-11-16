@@ -1,0 +1,42 @@
+{
+  "name": "@kentrino/dotenvx-lib",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Library for dotenvx env files.",
+  "license": "MIT",
+  "author": "Kento Haneda",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vp pack",
+    "check": "vp check",
+    "test": "vp test",
+    "ready": "vp run check && vp run test && vp run build",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.20.0",
+      "onFail": "download"
+    }
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "pnpm@11.20.0"
+}
