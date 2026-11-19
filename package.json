@@ -30,6 +30,10 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./browser": {
+      "types": "./dist/browser.d.ts",
+      "default": "./dist/browser.js"
     }
   },
   "scripts": {
@@ -39,14 +43,20 @@
     "ready": "vp run check && vp run test && vp run build",
     "prepare": "vp config"
   },
-  "dependencies": {
-    "eciesjs": "catalog:"
-  },
   "devDependencies": {
     "@types/node": "catalog:",
+    "eciesjs": "catalog:",
     "typescript": "catalog:",
     "vite": "catalog:",
     "vite-plus": "catalog:"
+  },
+  "peerDependencies": {
+    "eciesjs": "catalog:"
+  },
+  "peerDependenciesMeta": {
+    "eciesjs": {
+      "optional": true
+    }
   },
   "devEngines": {
     "packageManager": {

@@ -48,6 +48,18 @@ try {
 - `isEncrypted(value)` checks whether a string starts with `encrypted:`.
 - `isDotenvPublicKey(key)` checks whether a key is `DOTENV_PUBLIC_KEY` or `DOTENV_PUBLIC_KEY_*`.
 
+### Browser usage
+
+The default entrypoint uses Node.js built-in `node:crypto` with zero runtime dependencies. For browser environments, install the optional peer dependency `eciesjs` and import from `@kentrino/dotenvx-lite/browser`:
+
+```sh
+pnpm add @kentrino/dotenvx-lite eciesjs
+```
+
+```ts
+import { decrypt, decryptEnv, parseEnv } from "@kentrino/dotenvx-lite/browser";
+```
+
 ## Development
 
 Requires Node.js >= 22.18.0 and pnpm 11.20.0.
