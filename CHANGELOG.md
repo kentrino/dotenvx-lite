@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/kentrino/dotenvx-lite/compare/v0.1.0...v0.2.0) (2026-11-19)
+
+
+### Features
+
+* use node:crypto by default and export eciesjs version at /browser ([#2](https://github.com/kentrino/dotenvx-lite/issues/2)) ([4545065](https://github.com/kentrino/dotenvx-lite/commit/45450655f4bce61485f8dd05f965ce475b3a1bf3))
+
 ## 0.1.0 (2026-11-16)
 
 
